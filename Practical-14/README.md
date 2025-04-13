@@ -56,6 +56,21 @@ INSERT INTO Employee (Name, DOB, Age) VALUES
 ('Isha', '1993-10-16', 31);
 ```
 
+## Below are the output of the project
+![image](https://github.com/user-attachments/assets/e99cd60b-0046-403b-973b-59c3c555c71f)
+![image](https://github.com/user-attachments/assets/2d075322-833d-4500-922c-a15cf750afba)
+![image](https://github.com/user-attachments/assets/988c7dbd-a78a-4840-acf5-dac8995892ee)
+![image](https://github.com/user-attachments/assets/708318aa-1756-4dec-bcdc-1c57d571833f)
+![image](https://github.com/user-attachments/assets/72bed5ca-1c7d-4e1f-af1a-fc4fe54a559a)
+![image](https://github.com/user-attachments/assets/852666f6-08ad-4799-b3d2-fe614a458569
+![image](https://github.com/user-attachments/assets/fdb041ef-67c5-4fb3-b611-7f1905e84c43)
+
+
+
+
+
+
+
 ## Purpose
 
 This data can be used for testing:

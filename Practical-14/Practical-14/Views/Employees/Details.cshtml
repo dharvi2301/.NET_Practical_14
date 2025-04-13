@@ -1,0 +1,47 @@
+﻿@model Practical_14.Employee
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-info text-white">
+            <h3 class="mb-0">Employee Details</h3>
+        </div>
+
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">
+                    @Html.DisplayNameFor(model => model.DOB)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.DOB)
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">
+                    @Html.DisplayNameFor(model => model.Age)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Age)
+                </dd>
+            </dl>
+        </div>
+
+        <div class="card-footer d-flex justify-content-between">
+            <a class="btn btn-warning" href="@Url.Action("Edit", new { id = Model.Id })">
+                Edit
+            </a>
+            <a class="btn btn-outline-secondary" href="@Url.Action("Index")">
+                Back to List
+            </a>
+        </div>
+    </div>
+</div>
